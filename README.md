@@ -1,5 +1,5 @@
 # Spoti15
-### A Spotify Applet for the Logitech G15/G510S
+### A Spotify Applet for the Logitech G15/G510S/G13
 
 ---
  The original developer has abandoned the project so I've kept this applet updated to work with the latest version of [SpotifyAPI-NET](https://github.com/JohnnyCrazy/SpotifyAPI-NET) and updated it with new features.
@@ -17,7 +17,7 @@
 
 2\. Create a new applet in the Spotify Developer Dashboard. Save the Client ID and Secret ID.
 
-3\. In the Applet page of the Spotify Developer Dashboard, under 'Edit Settings' enter the following URI to the 'Redirect URIs' whitelist: `http://localhost:4002`. Then click 'Add' and finally 'Save'.
+3\. In the Applet page of the Spotify Developer Dashboard, under 'Edit Settings' enter the following URI to the 'Redirect URIs' whitelist: `http://127.0.0.1:4002`. Then click 'Add' and finally 'Save'.
 
 4\. Run Spoti15. Use the Client ID and Secret ID in the web browser window that pops up.
 
@@ -70,6 +70,9 @@ Pressing the left button (button 0) will go to the previous song. Pressing the l
 
 ### *Changelog:*
 ```
+v2.0.1 [November 27 2025]
+ + Fixed the hard-coded Localhost use breaking the entire connection between Spoti15 and Spotify
+
 v2.0.0 [April 12 2020]
  + Updated SpotifyAPI-NET, total rewrite of the software
  
