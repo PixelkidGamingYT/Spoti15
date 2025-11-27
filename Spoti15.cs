@@ -409,7 +409,7 @@ namespace Spoti15
 
         private void Authorize()
         {
-            var url = "http://localhost:4002";
+            var url = "http://127.0.0.1:4002";
 
             System.Diagnostics.Debug.Write("Re-authorize\r\n");
             auth?.Stop();
