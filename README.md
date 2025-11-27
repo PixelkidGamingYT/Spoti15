@@ -70,8 +70,13 @@ Pressing the left button (button 0) will go to the previous song. Pressing the l
 
 ### *Changelog:*
 ```
-v2.0.1 [November 27 2025]
+v2.0.2 [November 27 2025]
  + Fixed the hard-coded Localhost use breaking the entire connection between Spoti15 and Spotify
+
+v2.0.1 [April 20 2020]
+ + Fixed a NullReferenceException.
+ + Fixed some overlapping text.
+ + Fixed some errors with Artist playback mode.
 
 v2.0.0 [April 12 2020]
  + Updated SpotifyAPI-NET, total rewrite of the software
